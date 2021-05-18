@@ -6,6 +6,7 @@ using std::cout;
 
 typedef unsigned int UI;
 
+//This function takes data and protects program from entering incorrect data.
 void TakeData(UI* x)
 {
 	while (!(cin >> *x))
@@ -17,6 +18,7 @@ void TakeData(UI* x)
 	}
 }
 
+//This function checks the numbers. If the number is prime, the function returns TRUE, otherwise FALSE.
 bool ChekPrimeNum(UI** fa)
 {
 	bool result = true;
@@ -42,6 +44,7 @@ bool ChekPrimeNum(UI** fa)
 	return result;
 }
 
+//This function shows the prime numbers. 
 void ShowPrime(UI* fa, UI* fb)
 {
 	if (*fa < *fb)
