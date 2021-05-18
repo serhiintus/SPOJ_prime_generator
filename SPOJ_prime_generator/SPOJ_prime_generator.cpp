@@ -1,3 +1,5 @@
+//This program takes two numbers from the user and then shows all the prime numbers in between that numbers.
+
 #include <iostream>
 #include "MyLib.h"
 #include <Windows.h>
